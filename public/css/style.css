@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins:ital,wght@0,300;1,300&family=Roboto+Condensed&family=Signika+Negative:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto+Condensed:wght@700&family=Viga&display=swap");
+
+body {
+    background-image: linear-gradient(to bottom right,
+            /* rgba(15, 97, 157, 1), */
+            rgb(202, 85, 12),
+            rgb(232, 236, 240));
+    /* background-color: rgb(28, 121, 188); */
+}
+
+@media (min-width: 992px) {
+    #cari {
+        display: none;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    #hit-box {
+        display: none;
+    }
+
+    #slide-interval {
+        display: none;
+    }
+
+    #jumbotron {
+        padding-bottom: 15%;
+    }
+
+    .carousel-indicators button {
+        margin-top: 100%;
+        background-color: red !important;
+    }
+
+    nav.sticky {
+        opacity: 0.8;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+        background-image: linear-gradient(to bottom right,
+                rgba(28, 121, 188, 1),
+                rgb(154, 177, 199));
+        backdrop-filter: blur(5px);
+    }
+
+    .nav-link {
+        margin-right: 30px;
+        text-transform: uppercase;
+        font-family: "Signika Negative";
+        font-weight: 400;
+        border-radius: 8px;
+    }
+
+    .nav-link:hover {
+        background-color: #0d6efd !important;
+        border-radius: 8px;
+    }
+
+    .nav-brand,
+    .nav-link {
+        color: white !important;
+        /* text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7); */
+    }
+
+    .jumbotron h4 {
+        font-family: "Poppins";
+        font-size: 24px;
+        margin-top: 30%;
+        font-weight: 600;
+        color: white;
+    }
+
+    .jumbotron h4 span {
+        font-family: "Poppins";
+        font-size: 24px;
+        margin-top: 30%;
+        font-weight: 400;
+        color: white;
+    }
+
+    .jumbotron h1 {
+        font-family: "Poppins";
+        font-size: 36px;
+        margin-top: 30px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .jumbotron p {
+        font-family: "Poppins";
+        margin-top: 3%;
+        font-size: 24px;
+        font-weight: 600;
+        color: #ffff;
+    }
+
+    .gambar-card {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        display: flex;
+    }
+
+    .gambar-card i {
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+        transition: 0.5s ease;
+        margin: 0 120px;
+        background-color: #0f172a;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        display: block;
+        font-size: 30px;
+        line-height: 60px;
+        border-radius: 50%;
+        color: white;
+    }
+
+    .j-title {
+        text-align: center;
+        font-family: "Poppins";
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .l-text {
+        text-align: center;
+        margin-top: 15px;
+        color: #64748b;
+    }
+
+    .t-card {
+        margin: 0 60px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .jumbotron,
+    .img {
+        margin-top: 15px;
+    }
+
+    .jumbotron,
+    .tombol {
+        font-family: "Poppins";
+    }
+
+    .product,
+    button {
+        padding-bottom: 100%;
+    }
+
+    .product .tombol {
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-family: "Poppins";
+        border-radius: 8px;
+    }
+
+    .product,
+    .tombol:hover {
+        transition: 0.3 ease-in-out;
+        /* background-color: #0492f9; */
+        opacity: 0.7;
+    }
+
+    #intro {
+        margin-top: -10px;
+        background-color: #ffffff;
+    }
+
+    .kartu {
+        margin-top: -50%;
+        margin-bottom: 100px;
+        border-radius: 12px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+        transition: 0.5s ease;
+    }
+
+    .kartu:hover {
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.7);
+        transform: translate(0, -25px);
+    }
+
+    #list-product-sec {
+        background-color: #ffffff;
+        margin-top: -20px;
+        padding-top: 5%;
+    }
+
+    .intro-display {
+        padding: 50px;
+    }
+
+    .list-product,
+    h1 {
+        font-family: "Kanit";
+        font-size: 45px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+
+    .list-product h1 span {
+        color: rgb(215, 124, 21);
+    }
+
+    .list-product,
+    .tombol {
+        text-align: right;
+    }
+
+    /* keunggulan kami */
+    #keunggulan-kami {
+        background-color: #ffffff;
+        margin-top: -20px;
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
+
+    .j-keunggulan {
+        margin-top: 30px;
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "Poppins";
+    }
+
+    .p-keunggulan {
+        margin-bottom: 5%;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    .keunggulan-kartu {
+        border-radius: 15px;
+        margin-bottom: 35px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.3);
+        transition: 0.5s ease;
+    }
+
+    .keunggulan-kartu .card-title {
+        margin-top: 20px;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: "Poppins";
+    }
+
+    .keunggulan-kartu .card-text {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: "Poppins";
+    }
+
+    .gambar-keunggulan i {
+        color: #0a58ca;
+        padding: 15% 0;
+        margin-left: 50px;
+        font-size: 100px;
+    }
+
+    .keunggulan-kartu:hover {
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.7);
+        /* transform: translate(0, -25px); */
+    }
+
+    #contact {
+        padding-bottom: 5%;
+        background-image: linear-gradient(to bottom right,
+                /* rgba(15, 97, 157, 1), */
+                rgb(202, 85, 12),
+                rgb(232, 236, 240));
+    }
+
+    .j-contact {
+        margin-top: 10%;
+        color: #000000;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .j-hub {
+        margin-top: -5px;
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .label-contact {
+        color: #64748b;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-bottom: 5%;
+    }
+
+    .form-label {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .btn-rwt {
+        background-color: rgb(215, 124, 21) !important;
+        border-radius: 50px;
+        margin-top: 10px;
+    }
+
+    .btn-rwt:hover {
+        opacity: 0.7;
+    }
+
+    footer {
+        background-color: #1e293b;
+        padding-bottom: 10px;
+        width: 100%;
+        padding-left: 10px;
+        padding-top: 50px;
+        line-height: 25px;
+        color: white;
+    }
+
+    .bawah h3 {
+        font-family: viga;
+        font-size: 20px;
+    }
+
+    .info {
+        color: white;
+    }
+
+    .info span {
+        color: orange;
+    }
+
+    .info ul {
+        list-style: circle;
+        line-height: 45px;
+    }
+
+    .info ul li {
+        font-size: 15px;
+    }
+
+    .info ul li a {
+        color: #a9a9a9;
+    }
+
+    .priv {
+        color: white;
+    }
+
+    .priv span {
+        color: orange;
+    }
+
+    .priv ul {
+        list-style: circle;
+        line-height: 45px;
+    }
+
+    .priv ul li {
+        font-size: 15px;
+    }
+
+    .priv ul li a {
+        color: #a9a9a9;
+    }
+
+    .alamat {
+        color: white;
+    }
+
+    .alamat span {
+        color: #14b8a6;
+    }
+
+    .alamat p {
+        font-size: 15px;
+        color: white;
+    }
+
+    .maps {
+        margin-top: -0.1px;
+        color: white;
+    }
+
+    .maps span {
+        color: #14b8a6;
+    }
+
+    .maps p {
+        font-size: 15px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        color: #a9a9a9;
+        font-size: 12px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    .to-top {
+        background-color: rgb(215, 124, 21);
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 40px;
+        right: 10px;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50px;
+        box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .to-top a {
+        color: white !important;
+        font-size: 22px;
+    }
+
+    .to-top:hover {
+        opacity: 0.7 !important;
+    }
+}
